@@ -1,4 +1,4 @@
-const sentenceMaker = require ('../lib/index');
+const sentenceMaker = require ('./lib/index');
 //describe 
 describe('map array method function test', () => {
 
