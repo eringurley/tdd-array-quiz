@@ -3,9 +3,9 @@ const sentenceMaker = require ('../lib/index')
 describe('map array method function test', () => {
 
   it('takes an array and  removes Ys and makes a sentence', () => {
-    const originalArray = map['sky', 'hot', 'Yeti', 'green'];
-    const exptectedArray = ['Is it hot?', 'Is it green?']
-    const actualArray  = 
-    expect(array).toEqual();
+    const originalArray = ['sky', 'hot', 'Yeti', 'green'];
+    const expectedArray = ['Is it hot?', 'Is it green?']
+    const actualArray  = sentenceMaker(originalArray);
+    expect(actualArray).toEqual(expectedArray);
   });
 });
